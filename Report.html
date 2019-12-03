@@ -1,0 +1,262 @@
+<center><p><strong><u>COURSE PROJECT REPORT</u></strong></p></center>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<ul>
+<li><strong> Goal:</strong></li>
+</ul>
+<p>&nbsp;</p>
+<p>We will demonstrate distributed Machine Learning using Apache PySpark. We aim at building our own classification algorithms, measuring their performance and comparing it with those provided in PySpark&rsquo;s MLlib.</p>
+<p>&nbsp;</p>
+<p>To achieve this goal, we will analyze the Airline dataset described below and create classification models that will predict whether a given flight would be delayed or not. We will implement our project using the following steps:</p>
+<p>&nbsp;</p>
+<ol>
+<li>Data Preprocessing</li>
+</ol>
+<p>&nbsp;</p>
+<ol start="2">
+<li>Exploratory data analysis</li>
+</ol>
+<p>&nbsp;</p>
+<ol start="3">
+<li>Feature engineering</li>
+</ol>
+<p>&nbsp;</p>
+<ol start="4">
+<li>Implementing Machine Learning algorithms for classification by creating ML pipelines:</li>
+</ol>
+<p>&nbsp;</p>
+<ol>
+<li>Logistic Regression</li>
+</ol>
+<p>&nbsp;</p>
+<ol>
+<li>Stochastic Gradient Descent</li>
+</ol>
+<p>&nbsp;</p>
+<ol>
+<li>Naive Bayes</li>
+</ol>
+<p>&nbsp;</p>
+<ol start="5">
+<li>Evaluation of the classification models.</li>
+</ol>
+<p>&nbsp;</p>
+<ol start="6">
+<li>Comparison of classification models with existing algorithms in PySpark&rsquo;s MLlib.</li>
+</ol>
+<p>&nbsp;</p>
+<ol start="7">
+<li>Displaying results on a webpage.</li>
+</ol>
+<p>&nbsp;</p>
+<ul>
+<li><strong>Dataset:</strong></li>
+</ul>
+<p>&nbsp;</p>
+<p>The dataset, &lsquo;<strong>2015 Flight Delays and Cancellations&rsquo;,</strong> has been taken from Kaggle [1]. This is a significantly large dataset with more than a million rows and 31 feature columns which would be a good means to demonstrate PySpark&rsquo;s abilities to tame Big Data and create machine learning pipelines.</p>
+<p>This dataset is collected from the U.S. Department of Transportation&rsquo;s (DOT) Bureau of Transportation Statistics which contains information of flights in the year 2015 with respect to airline carrier, original airport, destination airport, distance traveled by the flight, time spent, departure delay time, arrival delay time, etc.</p>
+<p>&nbsp;</p>
+<ul>
+<li><strong> Context:</strong></li>
+</ul>
+<p>&nbsp;</p>
+<p>With the booming airline business, statistics of flight delays have become an important factor in understanding the airline&rsquo;s performance. Delay in flights causes a loss to both the airline and the passengers in different ways. The airline&rsquo;s reputation is at stake and the passengers face loss in terms of time and money. There are different factors for flight delays that are available in this dataset and they can be analyzed to find a pattern and predict if a certain flight will be delayed. We feel that creating predictive models for this would help as a starting point for the airline take measures in understanding flight delays.</p>
+<p>&nbsp;</p>
+<p>Analyzing such a huge dataset by leveraging machine learning models on PySpark will help us understand handling large scale data and extract patterns for data</p>
+<p>&nbsp;</p>
+<p>analytics. PySpark is also efficient in processing data in real-time which is an important industry skill to know.</p>
+<p>&nbsp;</p>
+<ul>
+<li><strong>Expectations:</strong></li>
+</ul>
+<p><strong>&nbsp;</strong></p>
+<ul>
+<li><strong>Definite Accomplishment:</strong></li>
+</ul>
+<p><strong>&nbsp;</strong></p>
+<ul>
+<li>Implementing Machine Learning algorithms from scratch using distributed cloud computing concepts in Spark.</li>
+</ul>
+<ul>
+<li><strong>Likely accomplishment:</strong></li>
+</ul>
+<p><strong>&nbsp;</strong></p>
+<ul>
+<li>Performance of our algorithms would be comparable to that of existing algorithms in PySpark&rsquo;s MLlib.</li>
+</ul>
+<ul>
+<li><strong>Ideal Accomplishment:</strong></li>
+</ul>
+<p><strong>&nbsp;</strong></p>
+<ul>
+<li>Implementation of more classification algorithms if time permits.</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li><strong>Team members and division of responsibility:</strong></li>
+</ul>
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td colspan="3" width="239">
+<p><strong>Team Member Name</strong></p>
+</td>
+<td colspan="3" width="337">
+<p><strong>Task</strong></p>
+</td>
+</tr>
+<tr>
+<td width="41">
+<p>&nbsp;</p>
+</td>
+<td width="155">
+<p>&nbsp;</p>
+</td>
+<td width="43">
+<p>&nbsp;</p>
+</td>
+<td width="149">
+<p>&nbsp;</p>
+</td>
+<td width="36">
+<p>&nbsp;</p>
+</td>
+<td width="152">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" width="239">
+<p><strong>Anagha Sarmalkar (801077504)</strong></p>
+</td>
+<td colspan="3" width="337">
+<p>Data&nbsp;&nbsp; Preprocessing,&nbsp;&nbsp; Feature&nbsp;&nbsp; Engineering,</p>
+</td>
+</tr>
+<tr>
+<td width="41">
+<p>&nbsp;</p>
+</td>
+<td width="155">
+<p>&nbsp;</p>
+</td>
+<td width="43">
+<p>&nbsp;</p>
+</td>
+<td colspan="3" width="337">
+<p>Implementing&nbsp; Logistic&nbsp; Regression,&nbsp; and&nbsp; Naive</p>
+</td>
+</tr>
+<tr>
+<td width="41">
+<p>&nbsp;</p>
+</td>
+<td width="155">
+<p>&nbsp;</p>
+</td>
+<td width="43">
+<p>&nbsp;</p>
+</td>
+<td colspan="3" width="337">
+<p>Bayes,&nbsp; evaluation of models, comparison with</p>
+</td>
+</tr>
+<tr>
+<td width="41">
+<p>&nbsp;</p>
+</td>
+<td width="155">
+<p>&nbsp;</p>
+</td>
+<td width="43">
+<p>&nbsp;</p>
+</td>
+<td colspan="3" width="337">
+<p>algorithms in MLlib.</p>
+</td>
+</tr>
+<tr>
+<td width="41">
+<p>&nbsp;</p>
+</td>
+<td width="155">
+<p>&nbsp;</p>
+</td>
+<td width="43">
+<p>&nbsp;</p>
+</td>
+<td width="149">
+<p>&nbsp;</p>
+</td>
+<td width="36">
+<p>&nbsp;</p>
+</td>
+<td width="152">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" width="239">
+<p><strong>Shweta Patil (801074059)</strong></p>
+</td>
+<td colspan="3" width="337">
+<p>Data Analysis, Implementing Stochastic Gradient</p>
+</td>
+</tr>
+<tr>
+<td width="41">
+<p>&nbsp;</p>
+</td>
+<td width="155">
+<p>&nbsp;</p>
+</td>
+<td width="43">
+<p>&nbsp;</p>
+</td>
+<td colspan="3" width="337">
+<p>Descent&nbsp; and&nbsp; Naive&nbsp; Bayes&nbsp; algorithm,&nbsp; Model</p>
+</td>
+</tr>
+<tr>
+<td width="41">
+<p>&nbsp;</p>
+</td>
+<td width="155">
+<p>&nbsp;</p>
+</td>
+<td width="43">
+<p>&nbsp;</p>
+</td>
+<td colspan="3" width="337">
+<p>Evaluations and comparisons, Webpage</p>
+</td>
+</tr>
+<tr>
+<td width="41">
+<p>&nbsp;</p>
+</td>
+<td width="155">
+<p>&nbsp;</p>
+</td>
+<td width="43">
+<p>&nbsp;</p>
+</td>
+<td width="149">
+<p>&nbsp;</p>
+</td>
+<td width="36">
+<p>&nbsp;</p>
+</td>
+<td width="152">
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<ul>
+<li><strong>References:</strong></li>
+</ul>
+<p><strong>&nbsp;</strong></p>
+<p>[1] 2015 Flight Delays and Cancellations <a href="https://www.kaggle.com/usdot/flight-delays">https://www.kaggle.com/usdot/flight-delays</a></p>
